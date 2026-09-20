@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio cá nhân của Phạm Thị Nhung - Sinh viên Khoa học Máy tính và Lập trình viên phần mềm định hướng Web Development & AI.">
+  <title>Trang chủ | Phạm Thị Nhung - Portfolio Cá Nhân</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Responsive Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Trang chủ Nhung Pham">
+        <span>&lt;/&gt;</span> Nhung Pham
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu điều hướng" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Main Navigation Menu -->
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="section hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        
+        <!-- Hero Visual / Avatar (Responsive Image) -->
+        <div class="hero-visual">
+          <div class="hero-avatar-wrapper">
+            <picture>
+              <source srcset="assets/images/profile.jpg" media="(min-width: 768px)">
+              <img src="assets/images/profile.jpg" alt="Ảnh đại diện của Phạm Thị Nhung" class="hero-avatar-img" width="320" height="320">
+            </picture>
+          </div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span> Đang học tập & phát triển dự án
+          </div>
+          <h1 id="hero-heading" class="hero-title">Phạm Thị Nhung</h1>
+          <p class="hero-subtitle">Computer Science Student &amp; Software Developer</p>
+          <p class="hero-description">
+            Tôi là sinh viên Khoa học Máy tính với định hướng phát triển trong lĩnh vực Software Development, Web Development và Artificial Intelligence. Tôi yêu thích việc học hỏi công nghệ mới, xây dựng các sản phẩm thực tế và từng bước phát triển kỹ năng để trở thành một kỹ sư phần mềm chuyên nghiệp.
+          </p>
+          <div class="btn-group hero-actions">
+            <a href="projects.html" class="btn btn-primary">View My Projects</a>
+            <a href="contact.html" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Skills Section -->
+    <section class="section section-alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Năng Lực Kỹ Thuật</span>
+          <h2 id="skills-heading">Featured Technical Skills</h2>
+          <p class="section-description">Các công nghệ nền tảng và công cụ tôi sử dụng để xây dựng sản phẩm phần mềm hiện đại.</p>
+        </header>
+
+        <div class="skills-grid">
+          <!-- Card 1 -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">
+              Programming Languages
+              <span class="skill-count">4 Skills</span>
+            </h3>
+            <p>Ngôn ngữ lập trình nền tảng phục vụ phát triển ứng dụng và thuật toán.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Go</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">TypeScript</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">
+              Frontend Development
+              <span class="skill-count">6 Skills</span>
+            </h3>
+            <p>Xây dựng giao diện web chuẩn HTML5 Semantic, Responsive và Mobile-First.</p>
+            <div class="tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive Web Design</span>
+              <span class="tag">Flexbox</span>
+              <span class="tag">CSS Grid</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">
+              Backend &amp; Databases
+              <span class="skill-count">5 Skills</span>
+            </h3>
+            <p>Phát triển dịch vụ web, thiết kế RESTful API và quản lý cơ sở dữ liệu quan hệ.</p>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">Go</span>
+              <span class="tag">REST API</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">
+              Tools &amp; Artificial Intelligence
+              <span class="skill-count">7 Skills</span>
+            </h3>
+            <p>Công cụ quản lý phiên bản, môi trường container hóa và tìm hiểu AI/ML.</p>
+            <div class="tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Visual Studio Code</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">RAG</span>
+              <span class="tag">LLM API</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Dự Án Thực Hành</span>
+          <h2 id="projects-heading">Featured Projects</h2>
+          <p class="section-description">Các dự án thực tế áp dụng kiến thức HTML5 Semantic, CSS3 Grid, Flexbox và Responsive Design.</p>
+        </header>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-portfolio.jpg" alt="Giao diện dự án Responsive Personal Portfolio" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Personal Portfolio</h3>
+              <p class="project-description">
+                Website Portfolio cá nhân đa trang được xây dựng bằng HTML5 và CSS3, giới thiệu thông tin cá nhân, kỹ năng, quá trình học tập, dự án và thông tin liên hệ.
+              </p>
+              <div class="project-features">
+                <p class="features-title">Core Features</p>
+                <ul class="features-list">
+                  <li>Semantic HTML5 &amp; Clean Code</li>
+                  <li>Mobile-First &amp; Responsive Layout</li>
+                  <li>CSS Grid &amp; Flexbox Integration</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">Core Project</span>
+                  <a href="projects.html" class="btn btn-outline btn-sm">Xem chi tiết &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-newspaper.jpg" alt="Giao diện dự án Responsive Online Newspaper Layout" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Online Newspaper Layout</h3>
+              <p class="project-description">
+                Giao diện trang báo trực tuyến sử dụng CSS Grid để xây dựng bố cục nhiều cột trên desktop và tự động chuyển thành bố cục một cột trên thiết bị di động.
+              </p>
+              <div class="project-features">
+                <p class="features-title">Core Features</p>
+                <ul class="features-list">
+                  <li>CSS Grid Multi-Column Layout</li>
+                  <li>Media Queries Breakpoints</li>
+                  <li>Fluid Editorial Content</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">CSS Grid</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">CSS Grid Practice</span>
+                  <a href="projects.html" class="btn btn-outline btn-sm">Xem chi tiết &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-navigation.jpg" alt="Giao diện dự án Responsive Hamburger Navigation" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Hamburger Navigation</h3>
+              <p class="project-description">
+                Thanh điều hướng responsive tự động chuyển từ menu ngang trên desktop sang hamburger menu trên thiết bị di động với hiệu ứng chuyển động mượt mà.
+              </p>
+              <div class="project-features">
+                <p class="features-title">Core Features</p>
+                <ul class="features-list">
+                  <li>Accessible Hamburger Menu</li>
+                  <li>CSS Transitions &amp; Hover Effects</li>
+                  <li>Mobile-First Navigation UI</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">Interaction</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">UI Component</span>
+                  <a href="projects.html" class="btn btn-outline btn-sm">Xem chi tiết &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="section-action-center">
+          <a href="projects.html" class="btn btn-primary">View All Projects &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner Section -->
+    <section class="section section-alt" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 id="cta-heading">Bạn Muốn Kết Nối Hoặc Trao Đổi Dự Án?</h2>
+          <p>Tôi luôn sẵn sàng học hỏi, trao đổi về công nghệ và mở rộng các cơ hội thực hành phần mềm mới.</p>
+          <a href="contact.html" class="btn btn-primary">Get In Touch With Me</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <h3>Nhung Pham</h3>
+          <p>Sinh viên Khoa học Máy tính đam mê phát triển phần mềm, công nghệ web hiện đại và nghiên cứu Trí tuệ Nhân tạo.</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li><a href="projects.html" class="footer-link">Projects</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Socials & Contact -->
+        <div>
+          <h4 class="footer-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/nhungphamco" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub Profile</a></li>
+            <li><a href="https://www.facebook.com/share/19fbedi1JV/" target="_blank" rel="noopener noreferrer" class="footer-link">Facebook Profile</a></li>
+            <li><a href="mailto:ptnhung061226@gmail.com" class="footer-link">ptnhung061226@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Phạm Thị Nhung. All rights reserved.</p>
+        <p>Designed &amp; Built by Phạm Thị Nhung</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

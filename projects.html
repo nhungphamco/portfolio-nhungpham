@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danh sách các dự án thực hành HTML5, CSS3, CSS Grid, Flexbox và Mobile-First của Phạm Thị Nhung.">
+  <title>Dự án | Phạm Thị Nhung - Portfolio Cá Nhân</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Responsive Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-logo" aria-label="Trang chủ Nhung Pham">
+        <span>&lt;/&gt;</span> Nhung Pham
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu điều hướng" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Main Navigation Menu -->
+      <nav class="main-nav" id="main-nav" aria-label="Điều hướng chính">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link active" aria-current="page">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+
+    <!-- Page Header -->
+    <section class="page-header" aria-labelledby="page-title">
+      <div class="container">
+        <span class="section-tag">Sản Phẩm &amp; Bài Tập</span>
+        <h1 id="page-title">My Projects</h1>
+        <p>Tuyển tập các dự án thực hành và ứng dụng được xây dựng theo tiêu chuẩn HTML5 Semantic, CSS3 hiện đại, Flexbox và bố cục CSS Grid responsive.</p>
+      </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section class="section" aria-labelledby="projects-list-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Thực Hành Frontend</span>
+          <h2 id="projects-list-heading">Dự Án Đã Xây Dựng</h2>
+          <p class="section-description">Bố cục CSS Grid tự động co giãn từ 1 cột trên điện thoại, 2 cột trên máy tính bảng và 3 cột trên máy tính bàn.</p>
+        </header>
+
+        <!-- CSS Grid Container for Projects -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Responsive Personal Portfolio -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-portfolio.jpg" alt="Ảnh chụp giao diện dự án Responsive Personal Portfolio" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Personal Portfolio</h3>
+              <p class="project-description">
+                Website Portfolio cá nhân đa trang được xây dựng bằng HTML5 và CSS3, giới thiệu thông tin cá nhân, kỹ năng, quá trình học tập, dự án và thông tin liên hệ.
+              </p>
+              
+              <div class="project-features">
+                <p class="features-title">Features</p>
+                <ul class="features-list">
+                  <li>Semantic HTML5</li>
+                  <li>Mobile-First Design</li>
+                  <li>Responsive Layout</li>
+                  <li>CSS Grid &amp; Flexbox</li>
+                  <li>Responsive Navigation</li>
+                  <li>Contact Form UI</li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">Completed Practice</span>
+                  <a href="index.html" class="btn btn-outline btn-sm">Xem trang chủ &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Responsive Online Newspaper Layout -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-newspaper.jpg" alt="Ảnh chụp giao diện dự án Responsive Online Newspaper Layout" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Online Newspaper Layout</h3>
+              <p class="project-description">
+                Giao diện trang báo trực tuyến sử dụng CSS Grid để xây dựng bố cục nhiều cột trên desktop và tự động chuyển thành bố cục một cột trên thiết bị di động.
+              </p>
+              
+              <div class="project-features">
+                <p class="features-title">Features</p>
+                <ul class="features-list">
+                  <li>CSS Grid Multi-Column</li>
+                  <li>Responsive Design</li>
+                  <li>Media Queries</li>
+                  <li>Mobile Layout</li>
+                  <li>Desktop Layout</li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">CSS Grid</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">Grid Practice</span>
+                  <span class="status-badge">Academic Project</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Responsive Hamburger Navigation -->
+          <article class="project-card">
+            <figure class="project-media">
+              <img src="assets/images/project-navigation.jpg" alt="Ảnh chụp giao diện dự án Responsive Hamburger Navigation" class="project-img" loading="lazy">
+            </figure>
+            <div class="project-body">
+              <h3 class="project-title">Responsive Hamburger Navigation</h3>
+              <p class="project-description">
+                Thanh điều hướng responsive tự động chuyển từ menu ngang trên desktop sang hamburger menu trên thiết bị di động.
+              </p>
+              
+              <div class="project-features">
+                <p class="features-title">Features</p>
+                <ul class="features-list">
+                  <li>Responsive Navigation</li>
+                  <li>Mobile-First Design</li>
+                  <li>CSS Media Queries</li>
+                  <li>Hover Effects</li>
+                  <li>Hamburger Menu</li>
+                </ul>
+              </div>
+
+              <div class="project-footer">
+                <div class="tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">Components</span>
+                </div>
+                <div class="project-actions">
+                  <span class="status-badge">UI Component</span>
+                  <span class="status-badge">Interactive</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Learning Roadmap Section -->
+    <section class="section section-alt" aria-labelledby="roadmap-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Định Hướng Dự Án Tiếp Theo</span>
+          <h2 id="roadmap-heading">Academic &amp; Personal Projects</h2>
+          <p class="section-description">Kế hoạch tiếp tục mở rộng các dự án thực tế trong thời gian tới.</p>
+        </header>
+
+        <div class="about-grid">
+          <article class="card">
+            <h3 class="card-title">Kế Hoạch Thực Hiện</h3>
+            <p>
+              Tích cực học tập và thực hành thông qua các bài tập, mini project và dự án cá nhân về Web Development, Software Development, Database, Docker và Artificial Intelligence.
+            </p>
+            <div class="tags mt-md">
+              <span class="tag">Fullstack Web</span>
+              <span class="tag">REST API Service</span>
+              <span class="tag">PostgreSQL Database</span>
+              <span class="tag">AI Application</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Tiêu Chuẩn Dự Án</h3>
+            <ul class="goals-list">
+              <li>Cấu trúc mã nguồn sạch, phân chia rõ ràng và dễ bảo trì.</li>
+              <li>Tối ưu trải nghiệm người dùng và tính tiếp cận (Accessibility).</li>
+              <li>Áp dụng quy trình kiểm thử và quản lý phiên bản với Git/GitHub.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <h3>Nhung Pham</h3>
+          <p>Sinh viên Khoa học Máy tính đam mê phát triển phần mềm, công nghệ web hiện đại và nghiên cứu Trí tuệ Nhân tạo.</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li><a href="projects.html" class="footer-link">Projects</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Socials & Contact -->
+        <div>
+          <h4 class="footer-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/nhungphamco" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub Profile</a></li>
+            <li><a href="https://www.facebook.com/share/19fbedi1JV/" target="_blank" rel="noopener noreferrer" class="footer-link">Facebook Profile</a></li>
+            <li><a href="mailto:ptnhung061226@gmail.com" class="footer-link">ptnhung061226@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Phạm Thị Nhung. All rights reserved.</p>
+        <p>Designed &amp; Built by Phạm Thị Nhung</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
